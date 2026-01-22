@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aplicação de Notas Next.js
+Uma aplicação moderna de gerenciamento de notas construída com Next.js, shadcn/ui, Kinde Auth, Prisma e Stripe, apresentando gerenciamento de assinaturas e experiência de usuário personalizada.
+---
+## Tecnologias Utilizadas
+- Next.js  
+- shadcn/ui  
+- Kinde Auth  
+- Prisma  
+- Stripe  
+- PostgreSQL  
+- Tailwind CSS  
+- TypeScript  
+---
+## Visão Geral do Sistema
+A aplicação apresenta uma arquitetura full-stack com Prisma ORM gerenciando operações de banco de dados PostgreSQL. A autenticação é gerenciada pelo Kinde Auth, enquanto a integração com Stripe permite acesso baseado em assinatura. 
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A plataforma permite que os usuários criem, gerenciem e organizem suas notas com uma interface limpa e responsiva.
+---
+## Funcionalidades
+- **Autenticação de Usuário**: Sistema seguro de registro e login com Kinde Auth  
+- **Gerenciamento de Notas**: Operações CRUD completas para criar, editar e excluir notas  
+- **Sistema de Assinatura**: Gerenciamento de assinaturas com Stripe e integração de webhooks  
+- **Configurações de Usuário**: Personalização de perfil com preferências de nome e esquema de cores  
+- **Interface Moderna**: Interface limpa e responsiva construída com componentes shadcn/ui  
+- **Suporte a Temas**: Alternância entre modo escuro/claro com esquemas de cores personalizáveis  
+- **Painel de Controle**: Hub centralizado para gerenciar todas as notas e configurações de conta
