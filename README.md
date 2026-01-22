@@ -1,4 +1,4 @@
-# Aplicação de Notas Next.js
+## Aplicação de Notas Next.js
 Uma aplicação moderna de gerenciamento de notas construída com Next.js, shadcn/ui, Kinde Auth, Prisma e Stripe, apresentando gerenciamento de assinaturas e experiência de usuário personalizada.
 ---
 ## Tecnologias Utilizadas
