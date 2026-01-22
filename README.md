@@ -22,3 +22,7 @@ Funcionalidades
 - **Interface Moderna**: UI responsiva com shadcn/ui  
 - **Suporte a Temas**: Modo escuro/claro personalizável  
 - **Painel de Controle**: Hub centralizado de gerenciamento
+
+
+https://github.com/user-attachments/assets/97205458-c3d0-4c5c-9cee-69004a8e47d7
+
